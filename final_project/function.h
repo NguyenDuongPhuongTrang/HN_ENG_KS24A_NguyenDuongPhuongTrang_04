@@ -1,0 +1,21 @@
+//khai bao nguyen mau ham
+void saveFile(int *numberUser);
+int checkAny(int *numberUser);
+void menuAdmin(int *numberUser);
+void loadToFile(int *numberUser);
+void backOrExit(int *numberUser);
+void addUser(int *numberUser);
+void showUser(int *numberUser);
+void showDetail(int *numberUser);
+void statusAcc(int *numberUser);
+void searchByID(int *numberUser);
+void sortUserByName(int *numberUser);
+void searchByName(int *numberUser);
+void deleteByID(int *numberUser);
+void editUser(int *numberUser);
+void menuUser(int *numberUser, int i);
+void depositMoney(int *numberUser,int i, struct Users *user);
+void showBalance(int *numberUser,int i, struct Users *user);
+void withDrawMoney(int *numberUser,int i, struct Users *user);
+void transaction(int *numberUser,int i, struct Users *user);
+void changePass(int *numberUser, int i, struct Users *user);
